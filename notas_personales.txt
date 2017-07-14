@@ -1,0 +1,22 @@
+DESARROLLO DE UNA APLICACIÓN CON ANGULAR 4
+
+- Instalar y generar el proyecto base en Angular 4:
+    + Instalar CLI Angular 4
+    + ng new Nombre-app
+    + cd Nombre-app
+    + npm start o npm install y ng serve
+
+- Incluir Boostrap y jQuery
+  + En la carpeta assets guardar la carpeta de Bootstrap descargada
+    ++ Importar en el index.html:
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"/>
+        <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+  + En la misma carpeta añadir el archivo min.js de jQuery
+    ++ Importar en el index.html:
+        <script type="text/javascript" src="assets/jquery.min.js"></script>
+
+- Maquetación web inicial (CSS Bootstrap):
+  + Añadir en la carpeta Assets un archivo css que contendrá los estilos generales
+    ++ Importar el archivo al index.html:
+        <link rel="stylesheet" href="assets/styles.css"/>

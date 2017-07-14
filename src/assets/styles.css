@@ -1,0 +1,70 @@
+#content{
+  border: 1px solid #eee;
+  margin-top: 30px;
+  background: white;
+  border-radius: 1px;
+  box-shadow: 0px 2px 5px #ccc;
+  padding: 0px;
+  overflow: hidden;
+}
+#header{
+  color:white;
+  margin: 0px;
+  height: 90px;
+  line-height: 90px;
+}
+#header h1{
+  display: block;
+  line-height: 45px;
+  font-weight: bold;
+  font-size: 30px;
+}
+#nav{
+  padding: 0px;
+  margin:0px;
+  background-color: #aaa5a5;
+}
+#nav ul{
+  list-style:none;
+  margin: 0px;
+  padding-left: 20px;
+}
+#nav ul li{
+  float: left;
+  margin-right: 20px;
+}
+#nav ul li a {
+  display: block;
+  line-height: 30px;
+  color: white;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: all 500ms;
+}
+#nav ul li a:hover {
+  text-decoration: none;
+  background-color: #e03137;
+}
+
+.activado {
+  text-decoration: none !important;
+  border-bottom: 4px solid #ccc;
+}
+
+#main .jumbotron{
+  padding: 50px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+#footer{
+  margin-top: 50px;
+  border-top: 1px solid #eee;
+  padding-top:10px;
+  color: gray;
+}
+#form-producto label{
+  margin-top:10px;
+}
+
